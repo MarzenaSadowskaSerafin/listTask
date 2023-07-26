@@ -1,0 +1,35 @@
+.sectionAll {
+    background: white;
+    margin: 10px 0;
+}
+
+.sectionAll__haeder {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sectionForm {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
+
+@media(max-width:767px) {
+    .sectionForm {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
+.sectionForm__input {
+    border: 1px solid #f4eded;
+    padding: 10px;
+}
+
+.sectionForm__button {
+    background: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+}

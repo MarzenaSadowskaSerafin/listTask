@@ -1,0 +1,39 @@
+.listTask {
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.listTask ___item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 20px;
+    align-items: center;
+    border-bottom: 10px solid #ddd;
+}
+
+.listTask__button {
+    padding: 7px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: none;
+    align-content: center;
+}
+
+.listTask__button--toggleDone {
+    background-color: hsl(120, 56%, 34%);
+}
+
+.listTask__content {
+    word-break: break-word;
+}
+
+.listTask__content--done {
+    text-decoration: line-through;
+}
+
+.listTask__button--remove {
+    background-color: hsl(350, 84%, 46%);
+}
