@@ -4,7 +4,7 @@
     list-style: none;
 }
 
-.listTask ___item {
+.listTask__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 20px;
