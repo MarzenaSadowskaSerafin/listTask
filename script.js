@@ -43,10 +43,15 @@
         for (const task of tasks) {
             tasksListHTMLContent += `
               <li class="listTask__item js-task">
-                  <button class="listTask__button listTask__button--toggleDone js-toggleDone">
-                    ${task.done ? "👍" : ""}</button>
-                  <span class="listTask__content ${task.done ? "listTask__content--done" : ""}">${task.content}</span>
-                  <button class="listTask__button listTask__button--remove js-remove">🗑</button>
+                <button class="listTask__button listTask__button--toggleDone js-toggleDone">
+                    ${task.done ? "👍" : ""}
+                </button>
+                <span class="listTask__content ${task.done ? "listTask__content--done" : ""}">
+                    ${task.content}
+                </span>
+                <button class="listTask__button listTask__button--remove js-remove">
+                    🗑
+                </button>
               </li>
             `;
         }
@@ -73,7 +78,7 @@
     const init = () => {
         render();
 
-        const form = document.querySelector(".js-sectionForm");
+        const form = document.querySelector(".js-form");
 
         form.addEventListener("submit", onFormSubmit);
     };

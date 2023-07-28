@@ -1,9 +1,9 @@
-.sectionAll {
+.section {
     background: white;
     margin: 10px 0;
 }
 
-.sectionAll__haeder {
+.section__haeder {
     margin: 0;
     padding: 10px;
     border-bottom: 1px solid #ddd;
