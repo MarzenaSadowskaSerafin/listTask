@@ -25,6 +25,7 @@
 .sectionForm__input {
     border: 1px solid #f4eded;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .sectionForm__button {
@@ -32,4 +33,5 @@
     color: white;
     border: none;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
