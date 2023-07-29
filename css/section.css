@@ -1,34 +1,34 @@
-.section {
+.sectionMain {
     background: white;
     margin: 10px 0;
 }
 
-.section__haeder {
+.section__header {
     margin: 0;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-.sectionForm {
+.section {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
 }
 
 @media(max-width:767px) {
-    .sectionForm {
+    .section {
         width: 100%;
         grid-template-columns: 1fr;
     }
 }
 
-.sectionForm__input {
+.section__input {
     border: 1px solid #f4eded;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.sectionForm__button {
+.section__button {
     background: teal;
     color: white;
     border: none;
