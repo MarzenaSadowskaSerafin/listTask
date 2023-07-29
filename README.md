@@ -1,6 +1,7 @@
-﻿# listTask
+﻿# Do it!
 
 The "Lista zadań" program is a very simple list of tasks to do.
+
 ![test](Image/screen.png)
 
  
