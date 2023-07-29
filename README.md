@@ -34,3 +34,9 @@ The task will be removed from the task list.
 
 [link to the website](https://marzenasadowskaserafin.github.io/listTask/)
 
+
+# Tools used:
+- HTML
+- CSS - with BEM
+- JavaScript
+
