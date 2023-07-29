@@ -7,12 +7,14 @@
     margin: 0;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    font-size: medium;
+    font-weight: bolder;
 }
 
 .section {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 20px;
+    grid-gap: 0px;
 }
 
 @media(max-width:767px) {
@@ -25,6 +27,7 @@
 .section__input {
     border: 1px solid #f4eded;
     padding: 10px;
+    margin: 15px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -33,5 +36,11 @@
     color: white;
     border: none;
     padding: 10px;
+    margin: 15px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.section__button:hover {
+    background: hsl(170, 38%, 46%);
+
 }

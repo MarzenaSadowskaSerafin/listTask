@@ -26,8 +26,13 @@
     background-color: hsl(120, 56%, 34%);
 }
 
+.listTask__button--toggleDone:hover {
+    background: hsl(170, 70%, 30%);
+}
+
 .listTask__content {
     word-break: break-word;
+    font-weight: initial;
 }
 
 .listTask__content--done {
@@ -36,4 +41,8 @@
 
 .listTask__button--remove {
     background-color: hsl(350, 84%, 46%);
+}
+
+.listTask__button--remove:hover {
+    background: hsl(400, 84%, 46%);
 }
