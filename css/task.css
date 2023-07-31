@@ -1,6 +1,6 @@
 .listTask {
-    margin: 10px;
-    padding: 0px;
+    margin: 0px;
+    padding: 20px;
     list-style: none;
 }
 
@@ -26,8 +26,12 @@
     background-color: hsl(120, 56%, 34%);
 }
 
+.listTask__button--toggleDone {
+    cursor: pointer;
+}
+
 .listTask__button--toggleDone:hover {
-    background: hsl(170, 70%, 30%);
+    background: hsl(120, 56%, 44%);
 }
 
 .listTask__content {
@@ -43,6 +47,10 @@
     background-color: hsl(350, 84%, 46%);
 }
 
+.listTask__button--remove {
+    cursor: pointer;
+}
+
 .listTask__button--remove:hover {
-    background: hsl(400, 84%, 46%);
+    background: hsl(350, 84%, 56%);
 }

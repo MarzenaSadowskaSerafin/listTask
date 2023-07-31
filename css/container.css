@@ -1,8 +1,7 @@
 .container {
-    max-width: 80%;
-    margin: 30px auto;
-    padding: 50px;
-    background: rgb(238, 238, 238);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: bolder;
